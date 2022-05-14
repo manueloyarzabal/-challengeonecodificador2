@@ -1,0 +1,266 @@
+body{
+    
+    width: 1440px;
+    height: 1024px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #F3F5FC;
+    display: inline-block;
+
+    
+}
+
+header{
+    display:block;
+    
+}
+.logo{
+    display: inline-block;
+
+}
+img{
+    position: absolute;
+    height: 48px;
+    width: 120px;
+    top: 40px;
+    left: 84px;
+
+}
+
+.hide{
+    display: none;
+}
+
+.sidebar{
+    position: absolute;
+    margin: 40px;
+    height: 944px;
+    width: 400px;
+    top:0px;
+    left: 1081px;
+    right: 40px;
+    padding: 40px;
+    background-color: #FFFFFF;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+.sidebar-java{
+    position: absolute;
+    margin: 40px;
+    height: 944px;
+    width: 400px;
+    top:0px;
+    left: 1081px;
+    right: 40px;
+    padding: 40px;
+    background-color: #FFFFFF;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+.botoncopiar{
+    margin-top: 190%;
+    margin-left: 32px;
+    margin-right: 32px;
+    font-size: 16px;
+    text-align: center;
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    color: darkblue;
+
+}
+
+.botones{
+    margin-top: 106px;
+}
+
+.container{
+    
+    display: flex;
+    background-color: #F3F5FC;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10%;
+   
+}
+
+
+.form-encriptado textarea{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:#F3F5FC ;
+    border-style: none;
+    resize: none;
+    
+}
+
+.form-encriptado textarea:focus-visible{
+    outline: none;
+    
+}
+
+.ingresetexto{
+    
+    color: darkblue;
+    font-size: 32px;
+    line-height: 150%;
+    
+
+   
+    
+}
+
+
+
+
+.simbolo{
+    position: absolute;
+    width: 205px;
+    height: 18px;
+    font-size: 12px;
+    color: #495057;
+    opacity: 0.8;
+    text-align: left;
+    
+
+    
+                
+}
+
+.encriptar{
+    margin-top: 200px;
+    margin-right: 24px;
+    margin-block-end: 72px;
+    font-size: 16px;
+    text-align: center;
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    color: #FFFFFF;
+    transition: 1s all;
+    cursor: pointer;
+
+
+
+
+   
+}
+
+.desencriptar{
+    margin-right: 80px;
+    font-size: 16px;
+    text-align: center;
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    color: darkblue;
+
+
+   
+}
+
+
+
+.munieco{
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.mensaje{
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -100%);
+
+}
+
+
+
+
+.mensaje-noencontrado{
+    
+    font-weight: bold;
+    font-size: 24px;
+    color: #343A40;
+    
+}
+.texto-deseado{
+    
+    line-height:1.2;
+    margin-top: 16px;
+    color: #495057;
+    
+}
+footer{
+  
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+    text-align: center;
+    
+
+}
+
+.textoMostrado{
+
+    color: darkblue;
+    font-size: 24px;
+    margin-top: 80px;
+
+}
+
+
+
+
+/* header {
+    padding: 40px 80px;
+}
+
+
+
+form{
+    display: inline;
+    padding: 168px 240px ;
+    
+    
+}
+
+.ingresetexto{
+    background-color: #E5E5E5;
+    color:darkblue;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+    box-sizing: border-box;
+    border: 2px solid #E5E5E5;
+    
+}
+
+.encriptador2{
+    display: inline-block;
+    text-align: right;
+    width: 1440px;
+    height: 1024px;
+    
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    
+}
+
+footer{
+    text-align: center;
+    padding:40px;
+} */

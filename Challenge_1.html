@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Encriptador Universal </title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="challenge1.css">
+    </head>
+
+    <body>
+
+      
+        <header>
+            <div class="Logo">
+                <h1><img src="Logo.png"></h1>
+            </div>
+
+            <aside class="sidebar"> 
+                
+                    <div class="imagen">
+                        <img src="Muñeco.png" class="munieco">
+                    </div>
+                    <div class="mensaje">
+                        <p class="mensajeEncontrado">ningun mesaje fue encontrado</p>
+                        
+                        <p class="ingresaTexto">
+                            ingresa el texto que deseas encriptar o desencriptar
+                          </p>
+
+                          
+                    </div>
+    
+             </aside>
+             <aside class="sidebar-java hide"> 
+
+                
+                
+                
+                <div>
+                     
+                    <div class="textoMostrado">
+                        
+                    </div>
+                    
+
+                   
+                    <button  class="botoncopiar" onclick="btncopiar()" > Copiar </button>
+                    
+                </div>
+
+         </aside>
+        </header>
+
+    <main class="container">
+
+    <form class="form-encriptado">
+                
+            <textarea type="text"  class="ingresetexto" cols="36" rows="10" placeholder="Ingrese texto aqui"></textarea>
+
+            <div class="botones">
+
+                <p for="textoencriptar" class="simbolo" style="margin-bottom: 16px;top: 900px;">&#33 solo letras minúsculas y sin acento</p> 
+                <button type="button" onclick="btnencriptar()" class="encriptar"> Encriptar </button>
+                <button type="button" onclick="btndesencriptar()" class="desencriptar"> Desencriptar </button>
+
+            </div>
+
+    </form>
+
+       
+     </main>
+
+        <footer>
+            <p class="rodapie" >&copy Manuel Oyarzabal diseño esta página</p>
+        </footer>
+
+        
+
+      
+        
+    </body>
+
+    <script src="CHALLENGE1.Js"></script>
+
+</html>
